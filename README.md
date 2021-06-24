@@ -465,7 +465,7 @@ Usage of ./go-stress-testing-mac:
   -p string
       curl文件路径
   -r string
-      需要随机的参数,以&分割 示例: 'name&Age'
+      需要随机的参数,以&分割 示例: 'name&age'
 ```
 
 - `-n` 是单个用户请求的次数，请求总次数 = `-c`* `-n`， 这里考虑的是模拟用户行为，所以这个是每个用户请求的次数
