@@ -53,7 +53,7 @@ func init() {
 	flag.IntVar(&maxCon, "m", maxCon, "单个host最大连接数")
 	flag.BoolVar(&http2, "http2", http2, "是否开http2.0")
 	flag.BoolVar(&keepalive, "k", keepalive, "是否开启长连接")
-	flag.StringVar(&rp, "r", rp, "需要随机的参数,以&分割 示例: 'orderCode&posId&deviceId'")
+	flag.StringVar(&rp, "r", rp, "需要随机的参数,以&分割 示例: 'name&age'")
 	// 解析参数
 	flag.Parse()
 }
