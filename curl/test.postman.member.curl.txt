@@ -1,0 +1,8 @@
+curl -X POST \
+  http://127.0.0.1:8080/member \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Postman-Token: fef07470-32f5-4df4-8bea-b31f82e18651' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
+  -F 'name=张三' \
+  -F age=20

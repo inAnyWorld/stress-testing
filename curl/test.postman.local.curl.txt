@@ -1,0 +1,10 @@
+curl -X POST \
+  http://local.cn/v1/detail \
+  -H 'Postman-Token: 540c059c-84f0-44cc-9353-a4f329da0fca' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
+  -F ordercode=E519874655893856 \
+  -F openID=xx \
+  -F userID=xx \
+  -F posID=B0CM7 \
+  -F deviceID=xx
